@@ -11,6 +11,12 @@ export class HomeComponent implements OnInit {
   constructor(private dataService : DataServiceService) { }
 
   ngOnInit() {
+    this.dataService.getGlobalData().subscribe({
+      next : (result)=>{
+        console.log(result);
+      }
+    })
+
   }
 
 }
