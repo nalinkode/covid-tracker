@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { Router ,RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './shared/nav-bar/nav-bar.component';
@@ -9,7 +10,6 @@ import { Error500Component } from './shared/error/error500/error500.component';
 import { CountriesComponent } from './shared/countries/countries.component';
 import { HomeComponent } from './shared/home/home.component';
 import { routing } from './app.routing';
-import { Router ,RouterModule, Routes } from '@angular/router';
 
 
 @NgModule({
