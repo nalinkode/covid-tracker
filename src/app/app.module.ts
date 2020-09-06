@@ -9,6 +9,7 @@ import { Error500Component } from './shared/error/error500/error500.component';
 import { CountriesComponent } from './shared/countries/countries.component';
 import { HomeComponent } from './shared/home/home.component';
 import { routing } from './app.routing';
+import { Router ,RouterModule, Routes } from '@angular/router';
 
 
 @NgModule({
