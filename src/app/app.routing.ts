@@ -6,8 +6,12 @@ import { Routes, RouterModule } from '@angular/router';
 
 const appRoutes: Routes = [
     {
-        path: '',
+        path: 'home',
         component: HomeComponent
+    },
+     {
+        path: 'countries',
+        component: CountriesComponent
     },
     
     // ERROR 
@@ -20,7 +24,7 @@ const appRoutes: Routes = [
     },
     { 
       path: '500',
-      component: P500Component,
+      component: Error500Component,
       data: {
         title:'Page-500'
       }
