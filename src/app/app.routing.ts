@@ -13,7 +13,7 @@ const appRoutes: Routes = [
     // ERROR 
     { 
       path: '404',
-      component: P404Component,
+      component: Error404Component,
       data: {
         title:'Page-404'
       }
