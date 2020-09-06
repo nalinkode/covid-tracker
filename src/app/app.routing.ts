@@ -6,6 +6,11 @@ import { CountriesComponent } from './shared/countries/countries.component';
 import { HomeComponent } from './shared/home/home.component';
 
 const appRoutes: Routes = [
+     
+    {
+        path: '',
+        component: HomeComponent
+    }, 
     {
         path: 'home',
         component: HomeComponent
