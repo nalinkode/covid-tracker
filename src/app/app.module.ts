@@ -15,7 +15,7 @@ import { DataServiceService } from './shared/service/data-service.service';
 
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule,routing,],
+  imports:      [ BrowserModule, FormsModule,routing,HttpClientModule],
   declarations: [ AppComponent, NavBarComponent, Error404Component, Error500Component, CountriesComponent, HomeComponent ],
   bootstrap:    [ AppComponent ],
   providers: [DataServiceService]
