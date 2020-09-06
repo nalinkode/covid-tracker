@@ -31,7 +31,7 @@ const appRoutes: Routes = [
       }
     },
     
-    { path: '**', component: P404Component }
+    { path: '**', component: Error404Component }
 ];
 
 export const routing = RouterModule.forRoot(appRoutes);
