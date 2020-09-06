@@ -2,12 +2,7 @@
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './shared/home.component';
 import { CountriesComponent } from './shared/countries.component';
-import { CountriesComponent } from './shared/countries.component';
 import { Error404Component,Error500Component } from './shared/error';
-
-
-
-
 
 const appRoutes: Routes = [
     {
