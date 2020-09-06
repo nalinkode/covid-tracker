@@ -7,17 +7,6 @@ import {map } from 'rxjs/operators';
 })
 export class DataServiceService {
 
-  private globalDataUrl = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/09-05-2020.csv'
-
-  constructor(private http : HttpClient ) { }
-
-  getGlobalData(){
-  return this.http.get(this.globalDataUrl, {responseType :  'text'}).pipe(map(result=>{
-       return result;  
-      let rows = result.split('\n');
-    
-
-  }))
-  }
+ 
 
 }
